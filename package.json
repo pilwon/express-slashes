@@ -1,0 +1,36 @@
+{
+  "name": "express-slashes",
+  "version": "0.1.0",
+  "description": "Express middleware that removes trailing slashes",
+  "license": "MIT",
+  "author": {
+    "name": "Pilwon Huh",
+    "email": "pilwon@gmail.com"
+  },
+  "homepage": "https://github.com/pilwon/express-slashes",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pilwon/express-slashes.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "trailing",
+    "slash",
+    "slashes",
+    "library"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/express": "^4.0.33",
+    "@types/node": "^6.0.45",
+    "ts-loader": "^1.0.0",
+    "tslint": "^4.0.0-dev.0",
+    "tslint-pilwon": "^0.1.6",
+    "typescript": "^2.1.0-dev.20161102",
+    "webpack": "^2.1.0-beta.25",
+    "webpack-node-externals": "^1.5.4"
+  }
+}
